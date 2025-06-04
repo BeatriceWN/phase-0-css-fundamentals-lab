@@ -3,3 +3,49 @@ body {
   height: 100%;
   margin: 0;
 }
+
+/* align h1 text in the center */
+h1 {
+  text-align: center;
+}
+
+/* center all nav links */
+nav {
+  text-align: center;
+}
+
+/* style all <a> tags within the navbar */
+nav a {
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: lightblue;
+}
+
+/* shrink figcaption font size down and align to center*/
+figcaption {
+  font-size: 14px;
+  text-align: center;
+}
+
+/* i. Target all <p> tags within #featured-property. 
+ii.Set a hard width of 800px. 
+iii. Center the text.
+iv. Add vertical spacing around each <p> */
+#featured-property p {
+  width: 800px;
+  text-align: center;
+  margin: 20px auto;
+}
+
+/* i. make the #details section horizontal 
+ii. by floating each <div> to the left
+iii. give all <div>s inside #details the same background color.
+iv. center the text.
+v. set their width to 25%. */
+#details div {
+  float: left;
+  background-color: aquamarine;
+  text-align: center;
+  width: 25%;
+}
+
